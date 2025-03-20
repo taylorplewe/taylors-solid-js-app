@@ -6,6 +6,13 @@
   color: var(--col-text);
 }
 
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  height: 100vh;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --col-bg: white;
